@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RMRP AutoFish — автоматическая рыбалка</title>
+  <meta name="description" content="RMRP AutoFish — автоматизация рыбалки с распознаванием крючка и рыбки, циклом повторного заброса и HWID-активацией.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">AF</span>
+      <span>RMRP <b>AUTOFISH</b></span>
+    </a>
+
+    <nav>
+      <a href="#features">Возможности</a>
+      <a href="#demo">Демо</a>
+      <a href="#buy">Купить</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a class="btn btn-small" href="#buy">Купить</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">RMRP • AUTOFISH</div>
+          <h1>Рыбалка.<br><span>На автомате.</span></h1>
+          <p class="lead">
+            Автоматический заброс, поиск рыбки, вываживание и повторный цикл.
+            Доступ активируется персональным ключом с привязкой к компьютеру.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#buy">Купить AutoFish</a>
+            <a class="btn btn-ghost" href="#demo">Смотреть демо</a>
+          </div>
+
+          <div class="chips">
+            <span>⚡ Автозаброс</span>
+            <span>🎣 Автовываживание</span>
+            <span>🔐 HWID-ключ</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="status-line">
+            <span class="dot"></span>
+            <span>AutoFish готов к работе</span>
+          </div>
+
+          <div class="mock">
+            <div class="mock-line"><span>Запуск</span><b>6</b></div>
+            <div class="mock-line"><span>Остановка</span><b>7</b></div>
+            <div class="mock-line"><span>Активация</span><b>HWID</b></div>
+            <div class="mock-line"><span>Режим</span><b>Auto</b></div>
+          </div>
+
+          <div class="mini-note">
+            Один ключ предназначен для одного компьютера.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">ВОЗМОЖНОСТИ</div>
+          <h2>Что делает AutoFish</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card">
+            <div class="icon">01</div>
+            <h3>Распознаёт крючок</h3>
+            <p>Скрипт определяет появление шкалы и выбирает момент для заброса.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">02</div>
+            <h3>Находит рыбку</h3>
+            <p>PNG-шаблон используется для отслеживания положения рыбки на второй полосе.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">03</div>
+            <h3>Сам вываживает</h3>
+            <p>AutoFish управляет кликами во время мини-игры и прекращает их после улова.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">04</div>
+            <h3>Повторяет цикл</h3>
+            <p>После завершения улова скрипт ждёт новую шкалу и начинает следующий заброс.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">05</div>
+            <h3>HWID-защита</h3>
+            <p>Ключ активации рассчитывается под конкретный компьютер пользователя.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">06</div>
+            <h3>Простое управление</h3>
+            <p>Клавиша 6 запускает AutoFish, клавиша 7 мгновенно останавливает работу.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">ДЕМОНСТРАЦИЯ</div>
+          <h2>Посмотри AutoFish в работе</h2>
+          <p>Короткий демонстрационный ролик с игровыми данными, скрытыми блюром.</p>
+        </div>
+
+        <div class="video-frame">
+          <video controls playsinline preload="metadata" poster="assets/hero.jpg">
+            <source src="assets/autofish_demo.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section buy-section" id="buy">
+      <div class="container buy-grid">
+        <div>
+          <div class="eyebrow">ЛИЦЕНЗИЯ</div>
+          <h2>RMRP AutoFish</h2>
+          <p class="buy-text">
+            После покупки ты получаешь персональный код активации.
+            Перед выдачей ключа потребуется HWID компьютера.
+          </p>
+
+          <ul class="check-list">
+            <li>Автоматический цикл рыбалки</li>
+            <li>Два PNG-шаблона распознавания</li>
+            <li>Персональная HWID-активация</li>
+            <li>Инструкция по запуску</li>
+          </ul>
+        </div>
+
+        <div class="price-card">
+          <div class="price-label">Лицензия</div>
+          <div class="price" id="priceText">Цена по запросу</div>
+          <div class="price-sub">1 ключ • 1 компьютер</div>
+
+          <button class="btn btn-primary btn-wide" id="buyButton">Купить</button>
+
+          <div class="purchase-info" id="purchaseInfo">
+            Нажми «Купить», чтобы перейти к оформлению.
+          </div>
+
+          <div class="secure-row">
+            <span>🔐</span>
+            <span>Персональная активация по HWID</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">КАК КУПИТЬ</div>
+          <h2>Три простых шага</h2>
+        </div>
+
+        <div class="steps">
+          <div class="step"><b>1</b><span>Оформляешь заказ и получаешь инструкцию.</span></div>
+          <div class="step"><b>2</b><span>Отправляешь свой HWID для создания персонального ключа.</span></div>
+          <div class="step"><b>3</b><span>Вводишь ключ в AutoFish и запускаешь клавишей 6.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <div class="section-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>Частые вопросы</h2>
+        </div>
+
+        <details>
+          <summary>Можно ли передать свой ключ другому игроку?</summary>
+          <p>Ключ привязывается к HWID компьютера, поэтому на другом ПК он не должен пройти проверку.</p>
+        </details>
+
+        <details>
+          <summary>Что нужно положить рядом с программой?</summary>
+          <p>Исполняемый файл AutoFish и два PNG-шаблона: fish_template_tight.png и hook_template_tight.png.</p>
+        </details>
+
+        <details>
+          <summary>Как запустить и остановить?</summary>
+          <p>Клавиша 6 — запуск автоматической рыбалки. Клавиша 7 — остановка.</p>
+        </details>
+
+        <details>
+          <summary>Это официальный продукт RMRP?</summary>
+          <p>Нет. AutoFish — независимый пользовательский инструмент и не является официальным продуктом RMRP.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark">AF</span>
+          <span>RMRP <b>AUTOFISH</b></span>
+        </div>
+        <p>Независимый пользовательский инструмент.</p>
+      </div>
+      <div class="footer-note">© <span id="year"></span> AutoFish</div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
